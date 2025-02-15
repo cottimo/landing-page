@@ -54,7 +54,7 @@ function App() {
           fontWeight: 500,  // Semi-bold weight
           letterSpacing: '-0.03em'  // Even tighter spacing for headings
         }}>
-          Chas3
+          Chase
         </h1>
         
         <p style={{ 
@@ -81,7 +81,7 @@ function App() {
             marginBottom: '1rem',
             color: `${isDark ? '#8B5CF6' : '#7C3AED'}`  // Purple text
           }}>
-            join chas3's list
+            join Chase's list
           </h2>
           
           <p style={{
