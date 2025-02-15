@@ -1,13 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 function App() {
-  const [isDark, setIsDark] = useState(() => {
-    // Check if user has a saved preference
-    const saved = localStorage.getItem('darkMode');
-    // Check system preference if no saved preference
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    return saved ? JSON.parse(saved) : prefersDark;
-  });
+  const [isDark, setIsDark] = useState(true);
 
   useEffect(() => {
     // Update localStorage and body styles when theme changes
